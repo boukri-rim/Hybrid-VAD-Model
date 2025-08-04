@@ -46,11 +46,11 @@ Mdl_discriminantModel.mat %  Pre-trained pseudo-QDA model
 # model 
 net_rnn_gtcc2.mat                       %modified bi-lstm
 # results
-final_VAD_Decision_with_knocking_door_transient.fig
-final_VAD_Decision_with_keyboaed_taps_transient.fig
+final_VAD_Decision_with_knocking_door_transient.fig       /
+final_VAD_Decision_with_keyboaed_taps_transient.fig       /   
 response_gtcc.jpg
 # scripts
-gtcc_features.m  %function for Audio Pe-Processing and GFCCfeature extraction steps
-training_VAD_hybrid_model.m 
-test_VAD_hybrid_model.m    
-smoothing_transient.m
+gtcc_features.m  %function for Audio Pe-Processing and GFCCfeature extraction steps              /
+training_VAD_hybrid_model.m               /
+test_VAD_hybrid_model.m                   /
+smoothing_transient.m     
