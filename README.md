@@ -40,17 +40,20 @@ https://doi.org/10.1145/2502081.2502245.
 Available at:
 - https://github.com/speechdnn/Noises/tree/master/NoiseX-92
 ## Project structure
-# data:
+# Data:
 Mdl_linear1.mat          %%  Pre-trained linear-SVM model
 Mdl_discriminantModel.mat %  Pre-trained pseudo-QDA model
-# model 
-net_rnn_gtcc2.mat                       %modified bi-lstm
-# results
+# Model 
+dlnet_vad_model.mat                       %modified bi-lstm
+# Results
 final_VAD_Decision_with_knocking_door_transient.fig       /
 final_VAD_Decision_with_keyboaed_taps_transient.fig       /   
 response_gtcc.jpg
-# scripts
+# Scripts
 gtcc_features.m  %function for Audio Pe-Processing and GFCCfeature extraction steps              /
 training_VAD_hybrid_model.m               /
 test_VAD_hybrid_model.m                   /
 smoothing_transient.m     
+## Note
+ Due to GitHub's file size restrictions, The databases file, 'data_correct.mat', and 'Mdl_discriminantModel.mat'  are not included in this repository.
+If you would like access to these files,please contact me via email at :[rim.boukri@doc.umc.edu.dz]
